@@ -4,53 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><nav>
-        <h1>FOTOGRAFIA GELADA</h1>
-        <ul>Login</ul>
-    </nav></header>
+    <header>
+        <style>
+            nav{
+                display: flex;
+            }
+        </style>
+        <nav>
+        <h1 class="logo-header">FOTOGRAFIA GELADA</h1>
+        <button class="login-button">Login</button>
+        </nav>
+    </header>
 
     <main>
-        <h2>Home</h2>
-
-        <div class="fotos">
-            <img src="imagens/AlpesSuiços.jpg" alt="Alpes Suiços">
+        <hr>
+        <div class="home">
+            
+            <h2>Home</h2>
         </div>
+        <hr>
 
-        <div class="fotos">
-            <img src="imagens/Everest.jpg" alt="Everest">
+        <div class="grade">
+            <div class="gallery-photo1">
+                <img class="gallery-image" src="imagens/Everest.jpg" alt="Everest">
+            </div>
+
+            <div class=gallery-photo2>
+                <img class="gallery-image" src="imagens/MonteFuji.jpg" alt="Monte Fuji">
+            </div>
+
+            <div class=gallery-photo3>
+                
+                <img class="gallery-image" src="imagens/AlpesSuiços.jpg" alt="Alpes Suiços">
+            </div>  
+
+            <div class=gallery-photo4>
+                <img class="gallery-image" src="imagens/Huandoy.jpg" alt="Huandoy">
+            </div>  
+
+            <div class=gallery-photo5>
+                <img class="gallery-image" src="imagens/GrandCanyon.jpg" alt="Grand Canyon">
+            </div>  
+
+            <div class=gallery-photo6>
+                <img class="gallery-image" src="imagens/MonteElbrus.jpg" alt="Monte Elbrus">
+            </div>  
+
+            <div class=gallery-photo7>
+                <img class="gallery-image" src="imagens/MonteBranco.jpg" alt="Monte Branco">
+            </div>  
+
+            <div class=gallery-photo8>
+                <img class="gallery-image"src="imagens/PicoPikes.jpg" alt="Pico Pikes">
+            </div>  
         </div>
-
-        <div class="fotos">
-            <img src="imagens/GrandCanyon.jpg" alt="Grand Canyon">
-        </div>  
-
-        <div>
-            <img src="imagens/Huandoy.jpg" alt="Huandoy">
-        </div>  
-
-        <div>
-            <img src="imagens/MonteBranco.jpg" alt="Monte Branco">
-        </div>  
-
-        <div class="fotos">
-            <img src="imagens/MonteElbrus.jpg" alt="Monte Elbrus">
-        </div>  
-
-        <div class="fotos">
-            <img src="imagens/MonteFuji.jpg" alt="Monte Fuji">
-        </div>  
-
-        <div class="fotos">
-            <img src="imagens/PicoPikes.jpg" alt="Pico Pikes">
-        </div>  
-
 
     </main>
 
     <footer>
-        <h2>FOTOGRAFIA GELADA</h2>
+        <h2 class="nome-footer">FOTOGRAFIA GELADA</h2>
 
         <div>
             <img src="icones/Twitter.svg" alt="X(Twitter)">
@@ -59,7 +74,7 @@
             <img src="icones/tiktok.svg" alt="TikTok">
         </div>
 
-        <h3>Copyright - 2024</h3>
+        <h3 class="credito-footer">Copyright - 2024</h3>
 
     </footer>
 </body>

@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Concert One";
+    src: local(Concert One), url(../public/fonts/Concert_One/ConcertOne-Regular.ttf) format("truetype");  
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+}
+
+.logo-header {
+    font-family: Concert One;
+    color: #161616;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login-button {
+    float: right;
+    background-color: #161616;
+    color: #ffffff;
+    padding: 0 50px;
+    border-radius: 5px;
+}
+
+button {
+    margin: 10px 10px 10px auto;
+}
+
+
+.home {
+    text-align: center;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+    margin: 15px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-photo1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.gallery-photo2 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+.gallery-photo3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+
+
+
+.gallery-photo5 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+
+
+.gallery-photo7 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 11;
+}
+
+
+footer {
+    background-color: black;
+}
+
+.nome-footer {
+    color: white;
+    font-family: Concert One;
+}
+
+.credito-footer {
+    color: white;
+}
