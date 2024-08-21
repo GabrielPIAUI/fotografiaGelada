@@ -40,7 +40,7 @@ button {
 
 .grade {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 15px;
     margin: 15px;
@@ -73,7 +73,12 @@ button {
     grid-row-end: 8;
 }
 
-
+.gallery-photo4 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 10;
+    grid-row-end: 11;
+}
 
 .gallery-photo5 {
     grid-column-start: 4;
@@ -82,6 +87,12 @@ button {
     grid-row-end: 8;
 }
 
+.gallery-photo6 {
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 8;
+    grid-row-end: 10;
+}
 
 .gallery-photo7 {
     grid-column-start: 1;
@@ -90,14 +101,29 @@ button {
     grid-row-end: 11;
 }
 
+.gallery-photo8 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 10;
+    grid-row-end: 11;
+}
 
 footer {
-    background-color: black;
+    background-color: #161616;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.icones-footer {
+    margin: 0 20px;
 }
 
 .nome-footer {
     color: white;
     font-family: Concert One;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .credito-footer {
