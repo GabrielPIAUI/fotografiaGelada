@@ -59,6 +59,43 @@ button {
     grid-row-end: 5;
 }
 
+.img1 {
+    position: relative;
+    bottom: 4px;
+    left: 4px;
+}
+
+.span1 {
+    position: relative;
+    left: 8px;
+    bottom: 3px;
+}
+
+.img2 {
+    position: relative;
+    left: 25px;
+    bottom: 4px;
+}
+
+.span2 {
+    position: relative;
+    left: 30px;
+    bottom: 3px;
+}
+
+.container-icons {
+    position: relative;
+}
+
+.icons {
+    display: flex;
+    background-color: #4b4242af;
+    position: absolute;
+    bottom: 4px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
 .gallery-photo2 {
     grid-column-start: 7;
     grid-column-end: 10;
