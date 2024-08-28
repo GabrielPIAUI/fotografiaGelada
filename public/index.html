@@ -20,10 +20,19 @@
 
         <div class="modal">
             <div class="modal-content">
-                <h2>Login</h2>
+                <div class="login-text">
+                    <h2>Login</h2>
+                </div>
                 <hr>
-                <label class="email" for="">E-mail</label>
-                <input class="input-email" type="text">
+                <label class="label" for="">E-mail</label>
+                <input placeholder="" class="input" type="text">
+                <label class="label" for="">Senha</label>
+                <input placeholder="" class="input" type="password">
+
+                <div class="cancel-enter">
+                    <button class="button-cancelar" onclick="cancelar()">Cancelar</button>
+                    <button class="button-entrar" onclick="entrar()">Entrar</button>
+                </div>
             </div>
         </div>
     </header>

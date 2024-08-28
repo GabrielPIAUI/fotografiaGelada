@@ -55,10 +55,40 @@ button {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
 
     font-family: 'LexendDeca-Regular';
     color: var(--title);
+
+}
+
+.login-text {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+.label {
+    padding-top: 10px;
+}
+
+.cancel-enter {
+}
+
+.button-entrar {
+    background-color: black;
+    color: white;
+    padding: 0 25px;
+    border-radius: 5px;
+    position: relative;
+    left: 140px;
+}
+
+.button-cancelar {
+    background-color: white;
+    color: black;
+    padding: 0 25px;
+    border-radius: 5px;
+    position: absolute;
 }
 
 .home {
