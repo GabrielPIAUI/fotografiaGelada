@@ -51,7 +51,8 @@ button {
     margin: 15% auto; 
     padding: 20px;
     border-radius: 5px;
-    width: 70%; 
+    width: 30%; 
+    height: 30%;
 
     display: flex;
     flex-direction: column;
@@ -68,7 +69,14 @@ button {
 }
 
 .label {
-    padding-top: 10px;
+    padding-top: 40px;
+    padding-left: 40px;
+    color: #161616;
+}
+
+.input {
+    margin: auto 40px;
+    border-radius: 5px;
 }
 
 .cancel-enter {
@@ -77,18 +85,18 @@ button {
 .button-entrar {
     background-color: black;
     color: white;
-    padding: 0 25px;
+    padding: 0 65px;
     border-radius: 5px;
-    position: relative;
-    left: 140px;
+    float: right;
+    margin: 10px 40px;
 }
 
 .button-cancelar {
     background-color: white;
     color: black;
-    padding: 0 25px;
+    padding: 0 45px;
     border-radius: 5px;
-    position: absolute;
+    margin: 10px 40px;
 }
 
 .home {

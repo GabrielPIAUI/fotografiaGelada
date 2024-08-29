@@ -22,3 +22,6 @@ const switchModal = () => {
             switchModal()
         }
     }
+
+const modal = document.querySelector('.modal')
+const cancel = document.querySelector('.button-cancelar').addEventListener('click', cancelar())
